@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="GameEngine">
+      <UniqueIdentifier>{bc84ccfd-0ca8-4d8d-a806-b80331632b4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\Headers">
+      <UniqueIdentifier>{36c25764-dbf6-4af5-ad48-a6f270970165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\Source files">
+      <UniqueIdentifier>{ee1ac3f9-048c-4f09-a5aa-3fbf5d0e5202}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEngine\CubeCollider.cpp">
+      <Filter>GameEngine\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\GameEngine.cpp">
+      <Filter>GameEngine\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\GameObject.cpp">
+      <Filter>GameEngine\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="StartGame.cpp">
+      <Filter>GameEngine\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Hovercraft.cpp">
+      <Filter>GameEngine\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Obstacle.cpp">
+      <Filter>GameEngine\Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Grass.cpp">
+      <Filter>GameEngine\Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEngine\Collider.h">
+      <Filter>GameEngine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\CubeCollider.h">
+      <Filter>GameEngine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\GameEngine.h">
+      <Filter>GameEngine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\GameObject.h">
+      <Filter>GameEngine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Hovercraft.h">
+      <Filter>GameEngine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Obstacle.h">
+      <Filter>GameEngine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Grass.h">
+      <Filter>GameEngine\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
