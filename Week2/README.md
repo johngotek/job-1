@@ -6,7 +6,7 @@ The rest of this tutorial starts from the static scene we created last week. Ove
 
 Last week we created a static scene.  However as our game grows larger than just simple examples, this method will become unsustainable. The cpp file will become very large and it will be difficult to find the individual bits in the code. To make it even worse if you want many similar elements you would find yourself copy-pasting bits of code, no doubt finding some bugs and only fixing it in some copy and not others. Ultimately it will become a huge unmanagable mess.
 
-Fortunately there is a better way to deal with the growth of the code and this is to use classes. While initially it will take a bit of effort to set up it will save you a lot of time even over the course of a relatively small game like the one for this module. 
+Fortunately there is a better way to deal with the growth of the code and this is to use classes. While initially it will take a bit of effort to set up it will save you a lot of time even over the course of a relatively small game like the one . 
 Let us start with the Obstacle, represented by the coloured ball In our hovercraft race game we would like more than just one Obstacle. Obstacles in this will be quite similar. They will differ in position in the scene and there may be some slight visual variations such as the colour.
 In order to do this we will introduce a class called Obstacle. We can do this from within visual studio as follows:
 
