@@ -180,7 +180,7 @@ To the setup method (which is called from the main) first add a call to setupDra
 
 At this point we need to explain drawlists.
 
-Display lists essentially are just integers that are used identify bits of the drawing code that should be treated more or less independently. In 212CR you will see more detailed explanation, but for us the main feature is that we can reliably move and change individual objects without affecting everything else.
+Display lists essentially are just integers that are used identify bits of the drawing code that should be treated more or less independently. In job 2 you will see more detailed explanation, but for us the main feature is that we can reliably move and change individual objects without affecting everything else.
 
 We need a reliable way to create a unique number for each object, so that the two Obstacles will have a different display list. An easy way to do is is to introduce a variable called base in StartGame, indicating base (starting) display list, which we pass into setupDrawing. We let setupDrawing modify and return this variable, so we we make the call *base = firstObstacle.setupDrawing(displaylist)*.
 
